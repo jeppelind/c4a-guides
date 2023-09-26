@@ -2,6 +2,8 @@ import path from 'path';
 import { GatsbyNode } from 'gatsby';
 import { createFilePath } from 'gatsby-source-filesystem';
 
+const postTemplate = path.resolve('./src/templates/Post.tsx');
+
 type Post = {
   id: string,
   fields: {
@@ -26,7 +28,7 @@ export const createPages: GatsbyNode['createPages'] = async ({
   const { createPage } = actions;
 
   const result: ResultData = await graphql(`
-    {
+    query AllPosts {
       allMarkdownRemark(sort: { frontmatter: { date: ASC } }, limit: 1000) {
         nodes {
           id
@@ -48,13 +50,13 @@ export const createPages: GatsbyNode['createPages'] = async ({
   if (posts.length > 0) {
     posts.forEach((post) => {
       reporter.log(post.id)
-      // createPage({
-      //   path: post.fields.slug,
-      //   component: ADDCOMPONENT,
-      //   context: {
-      //     id: post.id,
-      //   },
-      // });
+      createPage({
+        path: post.fields.slug,
+        component: postTemplate,
+        context: {
+          id: post.id,
+        },
+      });
     });
   }
 }
@@ -84,18 +86,19 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
 
   createTypes(`
     type Frontmatter {
-      title: String
+      title: String!
       description: String
       date: Date @dateformat
     }
 
     type Fields {
-      slug: String
+      slug: String!
     }
   
     type MarkdownRemark implements Node {
-      frontmatter: Frontmatter
+      frontmatter: Frontmatter!
       fields: Fields
+      html: String!
     }
   `);
 }
