@@ -49,7 +49,6 @@ export const createPages: GatsbyNode['createPages'] = async ({
   reporter.log(`Number of posts: ${posts.length}`);
   if (posts.length > 0) {
     posts.forEach((post) => {
-      reporter.log(post.id)
       createPage({
         path: post.fields.slug,
         component: postTemplate,
@@ -89,6 +88,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       title: String!
       description: String
       date: Date @dateformat
+      order: Int
     }
 
     type Fields {
@@ -97,7 +97,7 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
   
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter!
-      fields: Fields
+      fields: Fields!
       html: String!
     }
   `);
