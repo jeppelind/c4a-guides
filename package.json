@@ -1,8 +1,8 @@
 {
-  "name": "c4a-guides-swe",
+  "name": "c4a-guides",
   "version": "1.0.0",
   "private": true,
-  "description": "c4a-guides-swe",
+  "description": "c4a-guides",
   "author": "jeppelind",
   "keywords": [
     "gatsby"
