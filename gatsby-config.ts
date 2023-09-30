@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `C4A guides SWE`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Card4Action Docs`,
+    siteUrl: `https://jeppelind.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -11,7 +11,7 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     'gatsby-plugin-sass',
-    'gatsby-plugin-mdx',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -30,7 +30,18 @@ const config: GatsbyConfig = {
     },
     {
       resolve: 'gatsby-transformer-remark',
-      options: {},
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 512,
+              withWebp: true,
+              linkImagesToOriginal: false,
+            },
+          },
+        ],
+      },
     },
   ]
 };

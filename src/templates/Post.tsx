@@ -7,7 +7,7 @@ const Post: React.FC<PageProps<Queries.PostByIdQuery>> = ({
   <div>
     <article>
       <header>
-        <h1>{post?.frontmatter?.title}</h1>
+        <h1>{post?.frontmatter.title}</h1>
       </header>
       {post?.html &&
         <section
