@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { PageProps, Link, graphql } from 'gatsby';
+import { PageProps, graphql } from 'gatsby';
+import Container from 'react-bootstrap/Container';
+import PostPreview from '../components/PostPreview';
 
 const IndexSWE: React.FC<PageProps<Queries.SwedishPostsQuery>> = ({
   data
@@ -7,17 +9,13 @@ const IndexSWE: React.FC<PageProps<Queries.SwedishPostsQuery>> = ({
   const posts = data.allMarkdownRemark.nodes;
 
   return (
-    <div>
+    <Container>
       {
         posts.map((post) => (
-          <h2 key={post.id}>
-            <Link to={post.fields.slug} itemProp='url'>
-              <span>{post.frontmatter.title}</span>
-            </Link>
-          </h2>
+          <PostPreview key={post.id} slug={post.fields.slug} frontmatter={post.frontmatter} />
         ))
       }
-    </div>
+    </Container>
   );
 }
 
@@ -36,7 +34,6 @@ export const query = graphql`
           date(formatString: "DD MMMM, YYYY")
           description
         }
-        html
         fields {
           slug
         }

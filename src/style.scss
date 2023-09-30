@@ -1,4 +1,6 @@
-@import url("https://use.typekit.net/ijo1gya.css");
+@import url("https://use.typekit.net/ijo1gya.css"); // Futura from Adobe Fonts
+@import 'colors';
+@import 'custom';
 
 $fontFamily: 'futura-pt', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -7,16 +9,23 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: larger;
-  color: #57575f;
-  background-color: #e8e8e8;
+  color: $text;
+  background-color: $background;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #0053a2;
+  color: $primary;
   font-weight: 700;
 }
 
 h1 {
   font-size: 2.6em;
   margin: 0.67em 0;
+}
+
+blockquote {
+  margin: 0.5rem;
+  padding: 20px 20px 6px;
+  border-left: solid 6px tint-color($primary, 50%);
+  background-color: tint-color($primary, 80%);
 }

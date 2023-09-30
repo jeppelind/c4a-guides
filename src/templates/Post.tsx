@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { PageProps, graphql } from 'gatsby';
+import Container from 'react-bootstrap/Container';
 
 const Post: React.FC<PageProps<Queries.PostByIdQuery>> = ({
   data: { markdownRemark: post },
 }) => (
-  <div>
+  <Container className='px-3'>
     <article>
       <header>
         <h1>{post?.frontmatter.title}</h1>
@@ -16,7 +17,7 @@ const Post: React.FC<PageProps<Queries.PostByIdQuery>> = ({
         />
       }
     </article>
-  </div>
+  </Container>
 );
 
 export default Post;

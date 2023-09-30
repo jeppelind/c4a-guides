@@ -1,5 +1,6 @@
 ---
 title: Skapa & redigera profilkort
+description: Profilkort för olika situationer.
 order: 2
 ---
 
@@ -24,4 +25,4 @@ Alla kortets sidor kommer att visas och du kan redigera varje sida genom att try
 När du redigerar en sida visas alla fält som finns på den sidan, med datat som du fyllt i tidigare. Ersätt de uppgifter du vill ändra och tryck sedan på "**Save**" uppe till höger för att spara sidändringarna.  
 Du kommer då tillbaks till översikten med de olika sidorna av kortet, tryck på "**Save**" uppe till höger i denna vy också för att slutföra redigeringen av ditt kort.
 
-> Du kan även välja ett av dina kort genom att klicka på *"SHARE"* i bottenmenyn.
+> Du kan även välja ett av dina kort genom att klicka på "**SHARE**" i bottenmenyn.

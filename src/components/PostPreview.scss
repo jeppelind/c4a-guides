@@ -1,0 +1,16 @@
+@import '../colors';
+
+.preview {
+  margin: 1rem;
+}
+.preview a {
+  text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 1px 1px shade-color($background, 5%);
+  transition: 0.3s;
+}
+.card:hover {
+  background-color: tint-color($background, 80%);
+}

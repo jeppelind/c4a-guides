@@ -1,0 +1,17 @@
+@import 'colors';
+
+// Bootstrap customizations
+
+// Container
+$container-max-widths: (
+  lg: 760px
+);
+
+// Card
+$card-bg: tint-color($background, 60%);
+$card-title-color: $primary;
+$card-color: tint-color($text, 20%);
+$card-border-width: 0;
+
+
+@import '~bootstrap/scss/bootstrap';
