@@ -8,17 +8,20 @@ En Clubroom QR-kod är kopplad till en Card4Action plats, som du kan checka in p
 
 För att skanna en Clubroom QR-kod trycker du på den gröna knappen "**CHECK IN**" på appens startsida, eller genom att trycka på QR knappen uppe i högra hörnet.
 
+![Check in buttons](../../common/checkInButtons.png)
+
+
 Telefonens kamera kommer att startas och du riktar den mot QR-koden så att du ser den i skärmen.
 
 > Du behöver ge appen tillgång till telefonens kamera för att kunna skanna QR-koder. Se mer längre ner.
 
 När appen läst in koden väljer du vilket av dina proilkort du vill checka in med (ifall du har flera kort).  
-Därefter får de en bekräftelse på namnet på platsen du precis checkat in på, klicka på "**CONTINUE**" för att fortsätta.
+Därefter får de en bekräftelse på namnet på platsen du precis checkat in på, klicka på "**FORTSÄTT**" för att fortsätta.
 
 Du är nu incheckad i detta Clubroom.
 
 ### Checka in med sexsiffrig kod
-Ifall du inte lyckas skanna QR-koden kan du ange platsens sexsiffriga kod för att checka in. När kameran är igång kan du klicka på knappen "**FIND BY CODE**" i längst ner i appen och där ange koden.
+Ifall du inte lyckas skanna QR-koden kan du ange platsens sexsiffriga kod för att checka in. När kameran är igång kan du klicka på knappen "**HITTA MED KOD**" i längst ner i appen och där ange koden.
 
 Den sexsiffriga koden ser du under QR-koden.
 
