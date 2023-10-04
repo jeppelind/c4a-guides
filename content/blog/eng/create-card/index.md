@@ -1,10 +1,30 @@
 ---
-title: Creating profile cards
-order: 1
+title: Create and Edit Profile Cards
+description: Proflie cards for all situations.
+order: 2
 ---
 
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Blandit turpis cursus in hac habitasse platea. Dolor sit amet consectetur adipiscing elit. Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Augue eget arcu dictum varius duis at consectetur lorem donec. Lectus quam id leo in. Egestas congue quisque egestas diam in arcu cursus euismod quis. Purus ut faucibus pulvinar elementum. Nunc mattis enim ut tellus elementum sagittis vitae et leo. Consectetur a erat nam at lectus urna.
+## Create a profile card
+Create a new card by opening the menu at the top left of the screen and select "**Create card**".
 
-In hac habitasse platea dictumst quisque. Nisi vitae suscipit tellus mauris a diam. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Mi eget mauris pharetra et. Leo a diam sollicitudin tempor. Sit amet porttitor eget dolor morbi non arcu risus quis. Id ornare arcu odio ut sem nulla pharetra diam sit. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Lacus sed turpis tincidunt id aliquet risus feugiat in. Integer vitae justo eget magna fermentum iaculis eu non diam. Consectetur purus ut faucibus pulvinar elementum integer enim. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet.
+Choose a card template to start with (the “Business” template is a good one to begin with).
 
-Rhoncus est pellentesque elit ullamcorper dignissim cras. Duis convallis convallis tellus id. Est ullamcorper eget nulla facilisi etiam dignissim diam. Duis at consectetur lorem donec massa sapien faucibus et. Tortor dignissim convallis aenean et tortor at risus. Rutrum tellus pellentesque eu tincidunt. Integer feugiat scelerisque varius morbi enim. Elementum nibh tellus molestie nunc. Sit amet volutpat consequat mauris nunc. Amet justo donec enim diam vulputate ut pharetra sit. Odio facilisis mauris sit amet massa vitae tortor condimentum lacinia. Laoreet sit amet cursus sit amet. Malesuada fames ac turpis egestas. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Mi sit amet mauris commodo quis imperdiet.
+Then fill out your information in the designated fields. Fields with a red (*) are mandatory.
+You can also choose to upload a profile picture and logotype from your phone.
+
+> You can gradually edit your card details afterwards, these will also be updated on the cards you have already shared with others. So you do not have to have all the correct information immediately.
+
+<br/>
+
+## Edit card details
+Choose one of your existing cards by going to the menu at the top left of your screen and select "**My cards**".
+
+Once you have selected a card you will see an overview of it, and what it looks like to your contacts.
+At the bottom right of the screen you have an "**EDIT**" button. Click to edit your card.
+
+All pages of your card will now be shown. You can edit each page by clicking "**EDIT PAGE**". The first page is the one that contains your contact details and personal information. In most cases, this is the only page you need to edit.
+
+When you edit a page, you will see all the fields available on that page with the information you have previously filled out. Edit and replace the information you want to change and then click "**Save**" at the top right of the screen to save your changes.
+You will then be redirected to the overview of your card and all its pages. Click "**Save**" at the top right of the screen to complete the changes.
+
+> You can also choose one of your cards by clicking "**SHARE**" in the bottom menu.

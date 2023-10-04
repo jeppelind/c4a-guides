@@ -20,10 +20,14 @@ Därefter får de en bekräftelse på namnet på platsen du precis checkat in p�
 
 Du är nu incheckad i detta Clubroom.
 
+<br/>
+
 ### Checka in med sexsiffrig kod
 Ifall du inte lyckas skanna QR-koden kan du ange platsens sexsiffriga kod för att checka in. När kameran är igång kan du klicka på knappen "**HITTA MED KOD**" i längst ner i appen och där ange koden.
 
 Den sexsiffriga koden ser du under QR-koden.
+
+<br/>
 
 ### Ge tillgång till telefonens kamera
 Har appen inte tillgång till telefonens kamera kommer den efterfråga det när du startar QR läsaren i appen.  
