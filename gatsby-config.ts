@@ -43,6 +43,18 @@ const config: GatsbyConfig = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Card4Action Docs',
+        short_name: 'C4A Docs',
+        start_url: '/',
+        background_color: '#e8e8e8',
+        theme_color: '#0053a2',
+        display: 'standalone',
+        icon: 'src/images/icon.png',
+      },
+    },
   ]
 };
 
